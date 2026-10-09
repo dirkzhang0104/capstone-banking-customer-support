@@ -1,0 +1,30 @@
+# --- Requirement document (not part of the deliverable) ---
+1754386562_capstone_problem_statement_banking_customer_support_ai_agent_using_multiagent_architectur.pdf
+*.pdf
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# --- Submission artifacts (PDF write-up + screenshots, kept local) ---
+submission/
+
+# --- Runtime artifacts ---
+data/
+logs/
+*.db
+*.db-journal
+*.sqlite3
+
+# --- Secrets ---
+.env
+
+# --- OS / editor ---
+.DS_Store
+.idea/
+.vscode/
